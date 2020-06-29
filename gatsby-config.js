@@ -6,6 +6,14 @@ const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 module.exports = {
   siteMetadata: {
     siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Daniel A. White`,
+    author: `Daniel A. White`,
+    siteHeadline: `Passion-driven software engineering`,
+    siteTitleAlt: `Daniel A. White's Blog`,
+    siteDescription: `Daniel A. White's Blog`,
+    siteUrl: `https://daniel-white.github.io/`,
+    siteLanguage: `en`,
+    siteImage: ``,
   },
   flags: {
     FAST_DEV: true,
@@ -16,10 +24,10 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          {
+          /*{
             title: `Blog`,
             slug: `/blog`,
-          },
+          },*/
           {
             title: `About`,
             slug: `/about`,
@@ -27,12 +35,12 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `Stack Overflow`,
+            url: `https://stackoverflow.com/users/23528/daniel-a-white`,
           },
           {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            name: `Twitter`,
+            url: `https://twitter.com/thetrueaplus`,
           },
         ],
       },
