@@ -25,7 +25,7 @@
     "gatsby-plugin-netlify": "^2.3.13",
     "gatsby-plugin-offline": "^3.2.23",
     "gatsby-plugin-sitemap": "^2.4.11",
-    "gatsby-transformer-remark": "^2.8.35",
+    "gatsby-transformer-remark": "^2.8.37",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
