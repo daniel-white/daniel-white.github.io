@@ -20,7 +20,7 @@
     "axios": "^0.20.0",
     "axios-jsonp": "^1.0.4",
     "gatsby": "^2.24.65",
-    "gatsby-plugin-google-analytics": "^2.3.13",
+    "gatsby-plugin-google-analytics": "^2.5.0",
     "gatsby-plugin-manifest": "^2.4.32",
     "gatsby-plugin-netlify": "^2.3.13",
     "gatsby-plugin-offline": "^3.2.23",
