@@ -2470,21 +2470,7 @@
   "resolved" "https://registry.npmjs.org/axios-jsonp/-/axios-jsonp-1.0.4.tgz"
   "version" "1.0.4"
 
-"axios@^0.20.0":
-  "integrity" "sha512-ANA4rr2BDcmmAQLOKft2fufrtuvlqR+cXNNinUmvfeSNCOF98PZL+7M/v1zIdGo7OLjEA9J2gXJL+j4zGsl0bA=="
-  "resolved" "https://registry.npmjs.org/axios/-/axios-0.20.0.tgz"
-  "version" "0.20.0"
-  dependencies:
-    "follow-redirects" "^1.10.0"
-
-"axios@^0.21.0":
-  "integrity" "sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA=="
-  "resolved" "https://registry.npmjs.org/axios/-/axios-0.21.1.tgz"
-  "version" "0.21.1"
-  dependencies:
-    "follow-redirects" "^1.10.0"
-
-"axios@^0.21.1":
+"axios@^0.21.0", "axios@^0.21.1":
   "integrity" "sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA=="
   "resolved" "https://registry.npmjs.org/axios/-/axios-0.21.1.tgz"
   "version" "0.21.1"
