@@ -16,7 +16,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@lekoarts/gatsby-theme-minimal-blog": "^2.6.1",
+    "@lekoarts/gatsby-theme-minimal-blog": "^2.7.5",
     "axios": "^0.20.0",
     "axios-jsonp": "^1.0.4",
     "gatsby": "^2.24.65",
