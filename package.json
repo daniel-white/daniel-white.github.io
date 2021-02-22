@@ -23,7 +23,7 @@
     "gatsby-plugin-google-analytics": "^2.11.0",
     "gatsby-plugin-manifest": "^2.12.0",
     "gatsby-plugin-netlify": "^2.11.0",
-    "gatsby-plugin-offline": "^3.10.0",
+    "gatsby-plugin-offline": "^3.10.1",
     "gatsby-plugin-sitemap": "^2.12.0",
     "gatsby-transformer-remark": "^2.16.0",
     "react": "^16.14.0",
