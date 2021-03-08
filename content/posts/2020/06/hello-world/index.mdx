@@ -15,28 +15,30 @@ asynchronous patterns has happened about the same time.
 Have these asynchronous patterns come to help squeak more performance out of dwindling
 hardware returns on investment? I would say there's some merit to that, but our machines
 _have always been asynchronous_ from the original hardware designs. Operating systems
-and libraries have previously taken a large share of the burden to enable developers 
+and libraries have previously taken a large share of the burden to enable developers
 very tight procedural code, at the cost of hurting the machine.
 
-I don't advertise to be a hardware or operating system expert here, these are just my 
-observations that could be wrong. 
+I don't advertise to be a hardware or operating system expert here, these are just my
+observations that could be wrong.
 [Please send any comments to my way via GitHub](https://github.com/daniel-white/daniel-white.github.io/issues/new).
 
 ### Asynchronicity in hardware
+
 Hardware I/O by its nature has always been asynchronous:
 
-* `Insert disk 1 into floppy drive A:`
-* `Press any key to continue...`
-* Mouse button clicked
-* Read file into memory from disk
-* etc.
+- `Insert disk 1 into floppy drive A:`
+- `Press any key to continue...`
+- Mouse button clicked
+- Read file into memory from disk
+- etc.
 
 When the hardware wanted to inform the software running, it would signal interupts on the CPU.
 I'm not sure of the complete details, but it was enough for primitive software to let the CPU
-completely interupt what it was doing to handle the event. These events weren't CPU bound and 
+completely interupt what it was doing to handle the event. These events weren't CPU bound and
 were _asynchronous_ to the software running.
 
 ### Cooperative multitasking &amp; preemtive operating systems
+
 Operating systems in the early 1990s weren't the multitasking behemoths that our modern
 operating systems are today. Many were implemented with _cooperative multitasking_.
 
@@ -58,7 +60,6 @@ To the application, the `OpenFile` call would simply block any other execution.
 
 The mid-1990s brought preemptive multitasking operating systems to the main stream.
 The operating system could control individual processes time on the CPU. At the time,
-multiple CPUs weren't a thing. Thread APIs were exposed to get the illusion of 
+multiple CPUs weren't a thing. Thread APIs were exposed to get the illusion of
 concurrency in a single process - but the I/O calls still blocked threads and
 threads are a constrained resource.
-

@@ -1,7 +1,7 @@
-require(`dotenv`).config()
+require(`dotenv`).config();
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
-const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
+const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID;
 
 module.exports = {
   siteMetadata: {
@@ -129,8 +129,8 @@ module.exports = {
           {
             serialize: ({ query: { site, allPost } }) =>
               allPost.nodes.map((post) => {
-                const url = site.siteMetadata.siteUrl + post.slug
-                const content = `<p>${post.excerpt}</p><div style="margin-top: 50px; font-style: italic;"><strong><a href="${url}">Keep reading</a>.</strong></div><br /> <br />`
+                const url = site.siteMetadata.siteUrl + post.slug;
+                const content = `<p>${post.excerpt}</p><div style="margin-top: 50px; font-style: italic;"><strong><a href="${url}">Keep reading</a>.</strong></div><br /> <br />`;
 
                 return {
                   title: post.title,
@@ -139,7 +139,7 @@ module.exports = {
                   url,
                   guid: url,
                   custom_elements: [{ "content:encoded": content }],
-                }
+                };
               }),
             query: `
               {
@@ -168,4 +168,4 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
+};

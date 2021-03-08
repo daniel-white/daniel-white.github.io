@@ -13,7 +13,8 @@
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
     "start": "gatsby develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-minimal-blog": "^3.0.0",
@@ -34,6 +35,17 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.4",
+    "prettier": "2.2.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,md,jsx,ts,tsx,yaml,mdx,json}": "prettier --write"
   }
 }

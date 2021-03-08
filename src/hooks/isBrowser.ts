@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
 export default function isBrowser() {
-    const [isBrowser, setIsBrowser] = React.useState(false);
+  const [isBrowser, setIsBrowser] = React.useState(false);
 
-    React.useEffect(() => {
-        setIsBrowser(true);
+  React.useEffect(() => {
+    setIsBrowser(true);
 
-        return () => setIsBrowser(false);
-    });
+    return () => setIsBrowser(false);
+  });
 
-    return isBrowser;
+  return isBrowser;
 }
