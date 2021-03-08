@@ -1,21 +1,21 @@
 /** @jsx jsx */
-import { jsx, useColorMode } from "theme-ui"
-import { Flex } from "@theme-ui/components"
-import useMinimalBlogConfig from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config"
-import ColorModeToggle from "@lekoarts/gatsby-theme-minimal-blog/src/components/colormode-toggle"
-import Navigation from "@lekoarts/gatsby-theme-minimal-blog/src/components/navigation"
-import HeaderTitle from "@lekoarts/gatsby-theme-minimal-blog/src/components/header-title"
-import HeaderExternalLinks from "@lekoarts/gatsby-theme-minimal-blog/src/components/header-external-links"
-import Reputation from "../../../components/reputation"
+import { jsx, useColorMode } from "theme-ui";
+import { Flex } from "@theme-ui/components";
+import useMinimalBlogConfig from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/use-minimal-blog-config";
+import ColorModeToggle from "@lekoarts/gatsby-theme-minimal-blog/src/components/colormode-toggle";
+import Navigation from "@lekoarts/gatsby-theme-minimal-blog/src/components/navigation";
+import HeaderTitle from "@lekoarts/gatsby-theme-minimal-blog/src/components/header-title";
+import HeaderExternalLinks from "@lekoarts/gatsby-theme-minimal-blog/src/components/header-external-links";
+import Reputation from "../../../components/reputation";
 
 const Header = () => {
-  const { navigation: nav } = useMinimalBlogConfig()
-  const [colorMode, setColorMode] = useColorMode()
-  const isDark = colorMode === `dark`
+  const { navigation: nav } = useMinimalBlogConfig();
+  const [colorMode, setColorMode] = useColorMode();
+  const isDark = colorMode === `dark`;
   const toggleColorMode = (e: any) => {
-    e.preventDefault()
-    setColorMode(isDark ? `light` : `dark`)
-  }
+    e.preventDefault();
+    setColorMode(isDark ? `light` : `dark`);
+  };
 
   return (
     <header sx={{ mb: [5, 6] }}>
@@ -41,7 +41,7 @@ const Header = () => {
         <HeaderExternalLinks />
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
