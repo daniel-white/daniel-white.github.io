@@ -10,5 +10,5 @@ jobs:
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
           deploy-branch: deploy
-          access-token: ${{ secrets.ACCESS_TOKEN }}
+          access-token: ${{ secrets.GITHUB_TOKEN }}
           skip-publish: true
