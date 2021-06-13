@@ -1,7 +1,116 @@
 # Change Log
 
+## 1.3.11
+
+### Patch Changes
+
+- Updated dependencies [[`1785dcf`](https://github.com/LekoArts/gatsby-themes/commit/1785dcfad131ab9270c401e6a3bb450f7cb01288)]:
+  - @lekoarts/gatsby-theme-minimal-blog@3.0.0
+
+## 1.3.10
+
+### Patch Changes
+
+- [`716fde2`](https://github.com/LekoArts/gatsby-themes/commit/716fde287d20e80e834d451825b55af249e0168a) [#579](https://github.com/LekoArts/gatsby-themes/pull/579) Thanks [@LekoArts](https://github.com/LekoArts)! - chore: Add gatsby-plugin-gatsby-cloud to starters
+
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [1.3.9](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.3.8...minimal-blog@1.3.9) (2020-11-11)
+
+**Note:** Version bump only for package minimal-blog
+
+## [1.3.8](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.3.7...minimal-blog@1.3.8) (2020-11-04)
+
+**Note:** Version bump only for package minimal-blog
+
+## [1.3.7](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.3.6...minimal-blog@1.3.7) (2020-11-02)
+
+**Note:** Version bump only for package minimal-blog
+
+## [1.3.6](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.3.5...minimal-blog@1.3.6) (2020-11-01)
+
+**Note:** Version bump only for package minimal-blog
+
+## [1.3.5](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.3.4...minimal-blog@1.3.5) (2020-10-25)
+
+**Note:** Version bump only for package minimal-blog
+
+## [1.3.4](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.3.3...minimal-blog@1.3.4) (2020-10-25)
+
+**Note:** Version bump only for package minimal-blog
+
+## [1.3.3](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.3.2...minimal-blog@1.3.3) (2020-10-25)
+
+**Note:** Version bump only for package minimal-blog
+
+## [1.3.2](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.3.1...minimal-blog@1.3.2) (2020-10-10)
+
+**Note:** Version bump only for package minimal-blog
+
+## [1.3.1](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.3.0...minimal-blog@1.3.1) (2020-09-25)
+
+**Note:** Version bump only for package minimal-blog
+
+# [1.3.0](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.2.7...minimal-blog@1.3.0) (2020-09-25)
+
+### Features
+
+- **minimal-blog:** Add Canonical URL support ([#494](https://github.com/LekoArts/gatsby-themes/issues/494)) ([0e9d7ac](https://github.com/LekoArts/gatsby-themes/commit/0e9d7ac04fdf9a7d30cca8c7ccf7565d3955502f))
+
+## [1.2.7](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.2.6...minimal-blog@1.2.7) (2020-09-25)
+
+**Note:** Version bump only for package minimal-blog
+
+## [1.2.6](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.2.5...minimal-blog@1.2.6) (2020-09-16)
+
+**Note:** Version bump only for package minimal-blog
+
+## [1.2.5](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.2.4...minimal-blog@1.2.5) (2020-09-10)
+
+**Note:** Version bump only for package minimal-blog
+
+## [1.2.4](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.2.3...minimal-blog@1.2.4) (2020-08-28)
+
+**Note:** Version bump only for package minimal-blog
+
+## [1.2.3](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.2.2...minimal-blog@1.2.3) (2020-08-27)
+
+**Note:** Version bump only for package minimal-blog
+
+## [1.2.2](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.2.1...minimal-blog@1.2.2) (2020-08-27)
+
+**Note:** Version bump only for package minimal-blog
+
+## [1.2.1](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.2.0...minimal-blog@1.2.1) (2020-08-27)
+
+**Note:** Version bump only for package minimal-blog
+
+# [1.2.0](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.1.13...minimal-blog@1.2.0) (2020-07-09)
+
+### Bug Fixes
+
+- **minimal-blog:** Use function for SpotifyPlayer example component ([bd2c343](https://github.com/LekoArts/gatsby-themes/commit/bd2c343580c041383a98822de2c622a7d944d93d))
+
+### Features
+
+- Add bundle-analyzer and lazy-load react-live ([#450](https://github.com/LekoArts/gatsby-themes/issues/450)) ([667fd33](https://github.com/LekoArts/gatsby-themes/commit/667fd33ce6af546cf2250af1e22395a26f45d6a2))
+
+## [1.1.13](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.1.12...minimal-blog@1.1.13) (2020-07-09)
+
+**Note:** Version bump only for package minimal-blog
+
+## [1.1.12](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.1.11...minimal-blog@1.1.12) (2020-07-04)
+
+**Note:** Version bump only for package minimal-blog
+
+## [1.1.11](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.1.10...minimal-blog@1.1.11) (2020-07-03)
+
+**Note:** Version bump only for package minimal-blog
+
+## [1.1.10](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.1.9...minimal-blog@1.1.10) (2020-07-02)
+
+**Note:** Version bump only for package minimal-blog
 
 ## [1.1.9](https://github.com/LekoArts/gatsby-themes/compare/minimal-blog@1.1.8...minimal-blog@1.1.9) (2020-06-11)
 
