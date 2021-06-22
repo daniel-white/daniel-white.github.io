@@ -10036,9 +10036,9 @@ postcss@^7.0.27:
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-postcss@^8.2.15, postcss@^8.2.9, postcss@^8.3.0:
-  version "8.3.2"
-  resolved "https://registry.npmjs.org/postcss/-/postcss-8.3.2.tgz"
+postcss@^8.2.15, postcss@^8.2.9, postcss@^8.3.5:
+  version "8.3.5"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.5.tgz#982216b113412bc20a86289e91eb994952a5b709"
   dependencies:
     colorette "^1.2.2"
     nanoid "^3.1.23"
