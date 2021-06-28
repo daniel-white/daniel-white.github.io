@@ -5818,9 +5818,9 @@ gatsby-plugin-mdx@^2.7.0:
     unist-util-remove "^1.0.3"
     unist-util-visit "^1.4.1"
 
-gatsby-plugin-netlify@^3.6.1:
-  version "3.7.1"
-  resolved "https://registry.npmjs.org/gatsby-plugin-netlify/-/gatsby-plugin-netlify-3.7.1.tgz"
+gatsby-plugin-netlify@^3.8.0:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-3.8.0.tgz#615e10e0d42d69d517f257c98204a1759a79c47d"
   dependencies:
     "@babel/runtime" "^7.14.0"
     fs-extra "^8.1.0"
