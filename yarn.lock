@@ -5680,9 +5680,9 @@ gatsby-cli@^3.7.1:
     yoga-layout-prebuilt "^1.9.6"
     yurnalist "^2.1.0"
 
-gatsby-core-utils@^2.7.1:
-  version "2.7.1"
-  resolved "https://registry.npmjs.org/gatsby-core-utils/-/gatsby-core-utils-2.7.1.tgz"
+gatsby-core-utils@^2.7.1, gatsby-core-utils@^2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-2.9.0.tgz#f1ba30dfa687bdd2c1c5106d29e6491e5376e8c5"
   dependencies:
     ci-info "2.0.0"
     configstore "^5.0.1"
@@ -5767,13 +5767,13 @@ gatsby-plugin-google-analytics@^3.6.0:
     "@babel/runtime" "^7.14.0"
     minimatch "3.0.4"
 
-gatsby-plugin-manifest@^3.6.0:
-  version "3.7.1"
-  resolved "https://registry.npmjs.org/gatsby-plugin-manifest/-/gatsby-plugin-manifest-3.7.1.tgz"
+gatsby-plugin-manifest@^3.9.0:
+  version "3.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-3.9.0.tgz#28e84611382b3d068c03417337ffee6438925a5c"
   dependencies:
     "@babel/runtime" "^7.14.0"
-    gatsby-core-utils "^2.7.1"
-    gatsby-plugin-utils "^1.7.1"
+    gatsby-core-utils "^2.9.0"
+    gatsby-plugin-utils "^1.9.0"
     semver "^7.3.5"
     sharp "^0.28.1"
 
@@ -5917,9 +5917,9 @@ gatsby-plugin-typescript@^3.7.1:
     "@babel/runtime" "^7.14.0"
     babel-plugin-remove-graphql-queries "^3.7.1"
 
-gatsby-plugin-utils@^1.7.1:
-  version "1.7.1"
-  resolved "https://registry.npmjs.org/gatsby-plugin-utils/-/gatsby-plugin-utils-1.7.1.tgz"
+gatsby-plugin-utils@^1.7.1, gatsby-plugin-utils@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-1.9.0.tgz#c7b124525486f56d4ccc5f78047f5b0fcb4521a7"
   dependencies:
     joi "^17.2.1"
 
