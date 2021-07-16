@@ -921,9 +921,9 @@
     core-js-pure "^3.14.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.0", "@babel/runtime@^7.3.4", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.7", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
-  version "7.14.5"
-  resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.14.5.tgz"
+"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.0", "@babel/runtime@^7.14.6", "@babel/runtime@^7.3.4", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.7", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+  version "7.14.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.6.tgz#535203bc0892efc7dec60bdc27b2ecf6e409062d"
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -4158,7 +4158,7 @@ dataloader@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmjs.org/dataloader/-/dataloader-1.4.0.tgz"
 
-date-fns@^2.14.0, date-fns@^2.21.1:
+date-fns@^2.14.0, date-fns@^2.22.1:
   version "2.22.1"
   resolved "https://registry.npmjs.org/date-fns/-/date-fns-2.22.1.tgz"
 
@@ -5693,6 +5693,19 @@ gatsby-core-utils@^2.7.1:
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
+gatsby-core-utils@^2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-2.9.0.tgz#f1ba30dfa687bdd2c1c5106d29e6491e5376e8c5"
+  dependencies:
+    ci-info "2.0.0"
+    configstore "^5.0.1"
+    file-type "^16.2.0"
+    fs-extra "^8.1.0"
+    node-object-hash "^2.0.0"
+    proper-lockfile "^4.1.1"
+    tmp "^0.2.1"
+    xdg-basedir "^4.0.0"
+
 gatsby-graphiql-explorer@^1.7.1:
   version "1.7.1"
   resolved "https://registry.npmjs.org/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-1.7.1.tgz"
@@ -5749,16 +5762,17 @@ gatsby-plugin-feed@^3.6.0:
     lodash.merge "^4.6.2"
     rss "^1.2.2"
 
-gatsby-plugin-gatsby-cloud@^2.6.1:
-  version "2.7.1"
-  resolved "https://registry.npmjs.org/gatsby-plugin-gatsby-cloud/-/gatsby-plugin-gatsby-cloud-2.7.1.tgz"
+gatsby-plugin-gatsby-cloud@^2.9.1:
+  version "2.9.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-gatsby-cloud/-/gatsby-plugin-gatsby-cloud-2.9.1.tgz#d295be499f439b9b7608f06ff451ed654104a73c"
   dependencies:
     "@babel/runtime" "^7.14.0"
-    date-fns "^2.21.1"
+    date-fns "^2.22.1"
     fs-extra "^8.1.0"
+    gatsby-telemetry "^2.9.0"
     kebab-hash "^0.1.2"
     lodash "^4.17.21"
-    webpack-assets-manifest "^5.0.1"
+    webpack-assets-manifest "^5.0.6"
 
 gatsby-plugin-google-analytics@^3.6.0:
   version "3.7.1"
@@ -5923,12 +5937,12 @@ gatsby-plugin-utils@^1.7.1:
   dependencies:
     joi "^17.2.1"
 
-gatsby-plugin-webpack-bundle-analyser-v2@^1.1.22:
-  version "1.1.22"
-  resolved "https://registry.npmjs.org/gatsby-plugin-webpack-bundle-analyser-v2/-/gatsby-plugin-webpack-bundle-analyser-v2-1.1.22.tgz"
+gatsby-plugin-webpack-bundle-analyser-v2@^1.1.24:
+  version "1.1.24"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-webpack-bundle-analyser-v2/-/gatsby-plugin-webpack-bundle-analyser-v2-1.1.24.tgz#25d0d1d66b7ee70bc46ac4fbb45cb37601a8baea"
   dependencies:
-    "@babel/runtime" "^7.13.10"
-    webpack-bundle-analyzer "^4.4.1"
+    "@babel/runtime" "^7.14.6"
+    webpack-bundle-analyzer "^4.4.2"
 
 gatsby-react-router-scroll@^4.7.1:
   version "4.7.1"
@@ -6033,9 +6047,9 @@ gatsby-source-filesystem@^3.7.0:
     valid-url "^1.0.9"
     xstate "^4.14.0"
 
-gatsby-telemetry@^2.7.1:
-  version "2.7.1"
-  resolved "https://registry.npmjs.org/gatsby-telemetry/-/gatsby-telemetry-2.7.1.tgz"
+gatsby-telemetry@^2.7.1, gatsby-telemetry@^2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-2.9.0.tgz#d6763b278bee601dd007a84427bac52e57a28d79"
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/runtime" "^7.14.0"
@@ -6045,7 +6059,7 @@ gatsby-telemetry@^2.7.1:
     boxen "^4.2.0"
     configstore "^5.0.1"
     fs-extra "^8.1.0"
-    gatsby-core-utils "^2.7.1"
+    gatsby-core-utils "^2.9.0"
     git-up "^4.0.2"
     is-docker "^2.1.1"
     lodash "^4.17.21"
@@ -12737,7 +12751,7 @@ web-namespaces@^1.0.0:
   version "1.1.4"
   resolved "https://registry.npmjs.org/web-namespaces/-/web-namespaces-1.1.4.tgz"
 
-webpack-assets-manifest@^5.0.1, webpack-assets-manifest@^5.0.5:
+webpack-assets-manifest@^5.0.5, webpack-assets-manifest@^5.0.6:
   version "5.0.6"
   resolved "https://registry.npmjs.org/webpack-assets-manifest/-/webpack-assets-manifest-5.0.6.tgz"
   dependencies:
@@ -12749,9 +12763,9 @@ webpack-assets-manifest@^5.0.1, webpack-assets-manifest@^5.0.5:
     schema-utils "^3.0"
     tapable "^2.0"
 
-webpack-bundle-analyzer@^4.4.1:
+webpack-bundle-analyzer@^4.4.2:
   version "4.4.2"
-  resolved "https://registry.npmjs.org/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.4.2.tgz"
+  resolved "https://registry.yarnpkg.com/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.4.2.tgz#39898cf6200178240910d629705f0f3493f7d666"
   dependencies:
     acorn "^8.0.4"
     acorn-walk "^8.0.0"
