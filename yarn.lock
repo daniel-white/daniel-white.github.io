@@ -5680,9 +5680,9 @@ gatsby-cli@^3.7.1:
     yoga-layout-prebuilt "^1.9.6"
     yurnalist "^2.1.0"
 
-gatsby-core-utils@^2.7.1:
-  version "2.7.1"
-  resolved "https://registry.npmjs.org/gatsby-core-utils/-/gatsby-core-utils-2.7.1.tgz"
+gatsby-core-utils@^2.10.0, gatsby-core-utils@^2.7.1:
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-2.10.0.tgz#bc37ea9eb6bb5f327aa4bdc0345a37d9390d4a7a"
   dependencies:
     ci-info "2.0.0"
     configstore "^5.0.1"
@@ -5767,15 +5767,15 @@ gatsby-plugin-google-analytics@^3.6.0:
     "@babel/runtime" "^7.14.0"
     minimatch "3.0.4"
 
-gatsby-plugin-manifest@^3.6.0:
-  version "3.7.1"
-  resolved "https://registry.npmjs.org/gatsby-plugin-manifest/-/gatsby-plugin-manifest-3.7.1.tgz"
+gatsby-plugin-manifest@^3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-3.10.0.tgz#87ce4383b938b06a9346610b9e4bd0cccd72c15a"
   dependencies:
-    "@babel/runtime" "^7.14.0"
-    gatsby-core-utils "^2.7.1"
-    gatsby-plugin-utils "^1.7.1"
+    "@babel/runtime" "^7.14.6"
+    gatsby-core-utils "^2.10.0"
+    gatsby-plugin-utils "^1.10.0"
     semver "^7.3.5"
-    sharp "^0.28.1"
+    sharp "^0.28.3"
 
 gatsby-plugin-mdx@^2.7.0:
   version "2.7.1"
@@ -5917,9 +5917,9 @@ gatsby-plugin-typescript@^3.7.1:
     "@babel/runtime" "^7.14.0"
     babel-plugin-remove-graphql-queries "^3.7.1"
 
-gatsby-plugin-utils@^1.7.1:
-  version "1.7.1"
-  resolved "https://registry.npmjs.org/gatsby-plugin-utils/-/gatsby-plugin-utils-1.7.1.tgz"
+gatsby-plugin-utils@^1.10.0, gatsby-plugin-utils@^1.7.1:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-1.10.0.tgz#88ca8a1d63be68ebdd65af83046c0f2fa011f725"
   dependencies:
     joi "^17.2.1"
 
@@ -11148,7 +11148,7 @@ shallow-compare@^1.2.2:
   version "1.2.2"
   resolved "https://registry.npmjs.org/shallow-compare/-/shallow-compare-1.2.2.tgz"
 
-sharp@^0.28.0, sharp@^0.28.1:
+sharp@^0.28.0, sharp@^0.28.3:
   version "0.28.3"
   resolved "https://registry.npmjs.org/sharp/-/sharp-0.28.3.tgz"
   dependencies:
