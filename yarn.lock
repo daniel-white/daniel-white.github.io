@@ -921,9 +921,9 @@
     core-js-pure "^3.14.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.0", "@babel/runtime@^7.14.6", "@babel/runtime@^7.3.4", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.7", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
-  version "7.14.6"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.6.tgz#535203bc0892efc7dec60bdc27b2ecf6e409062d"
+"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.0", "@babel/runtime@^7.14.6", "@babel/runtime@^7.14.8", "@babel/runtime@^7.3.4", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.7", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+  version "7.15.3"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.15.3.tgz#2e1c2880ca118e5b2f9988322bd8a7656a32502b"
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -5818,15 +5818,15 @@ gatsby-plugin-mdx@^2.7.0:
     unist-util-remove "^1.0.3"
     unist-util-visit "^1.4.1"
 
-gatsby-plugin-netlify@^3.6.1:
-  version "3.7.1"
-  resolved "https://registry.npmjs.org/gatsby-plugin-netlify/-/gatsby-plugin-netlify-3.7.1.tgz"
+gatsby-plugin-netlify@^3.12.0:
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-3.12.0.tgz#5335d8045111485759829f2eb1a4e0400637b366"
   dependencies:
-    "@babel/runtime" "^7.14.0"
+    "@babel/runtime" "^7.14.8"
     fs-extra "^8.1.0"
     kebab-hash "^0.1.2"
     lodash "^4.17.21"
-    webpack-assets-manifest "^5.0.5"
+    webpack-assets-manifest "^5.0.6"
 
 gatsby-plugin-offline@^4.6.0:
   version "4.7.1"
@@ -12737,7 +12737,7 @@ web-namespaces@^1.0.0:
   version "1.1.4"
   resolved "https://registry.npmjs.org/web-namespaces/-/web-namespaces-1.1.4.tgz"
 
-webpack-assets-manifest@^5.0.1, webpack-assets-manifest@^5.0.5:
+webpack-assets-manifest@^5.0.1, webpack-assets-manifest@^5.0.6:
   version "5.0.6"
   resolved "https://registry.npmjs.org/webpack-assets-manifest/-/webpack-assets-manifest-5.0.6.tgz"
   dependencies:
