@@ -27,7 +27,7 @@
     "gatsby-plugin-feed": "^3.13.0",
     "gatsby-plugin-gatsby-cloud": "^3.1.0",
     "gatsby-plugin-google-analytics": "^3.13.0",
-    "gatsby-plugin-manifest": "^3.13.0",
+    "gatsby-plugin-manifest": "^3.14.0",
     "gatsby-plugin-netlify": "^3.14.0",
     "gatsby-plugin-offline": "^4.13.0",
     "gatsby-plugin-postcss": "^4.13.0",
