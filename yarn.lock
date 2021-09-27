@@ -5547,11 +5547,11 @@ gatsby-plugin-gatsby-cloud@^3.1.0:
     lodash "^4.17.21"
     webpack-assets-manifest "^5.0.6"
 
-gatsby-plugin-google-analytics@^3.13.0:
-  version "3.13.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-3.13.0.tgz#bdcd330eb3598af86f742cea166446ad94ffed5a"
+gatsby-plugin-google-analytics@^3.14.0:
+  version "3.14.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-3.14.0.tgz#9a65c9b2b0ad0a2350c0318327101f637e285ef0"
   dependencies:
-    "@babel/runtime" "^7.14.8"
+    "@babel/runtime" "^7.15.4"
     minimatch "3.0.4"
     web-vitals "^1.1.2"
 
