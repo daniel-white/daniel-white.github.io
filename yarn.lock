@@ -1708,7 +1708,7 @@
     "@babel/runtime" "^7.7.2"
     regenerator-runtime "^0.13.3"
 
-"@lekoarts/gatsby-theme-minimal-blog-core@^3.1.1", "@lekoarts/gatsby-theme-minimal-blog-core@^3.1.3":
+"@lekoarts/gatsby-theme-minimal-blog-core@^3.1.3":
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/@lekoarts/gatsby-theme-minimal-blog-core/-/gatsby-theme-minimal-blog-core-3.1.3.tgz#09c7528299754a90e3823d42cb8315869017bb9f"
   dependencies:
