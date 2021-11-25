@@ -1086,9 +1086,9 @@
     core-js-pure "^3.14.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.0", "@babel/runtime@^7.14.8", "@babel/runtime@^7.15.3", "@babel/runtime@^7.15.4", "@babel/runtime@^7.3.4", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.7", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
-  version "7.15.4"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.15.4.tgz#fd17d16bfdf878e6dd02d19753a39fa8a8d9c84a"
+"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.0", "@babel/runtime@^7.14.8", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.3", "@babel/runtime@^7.3.4", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.7", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+  version "7.16.3"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.16.3.tgz#b86f0db02a04187a3c17caa77de69840165d42d5"
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -3649,11 +3649,7 @@ commander@^2.20.0, commander@^2.20.3:
   version "2.20.3"
   resolved "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz"
 
-commander@^6.2.0:
-  version "6.2.1"
-  resolved "https://registry.npmjs.org/commander/-/commander-6.2.1.tgz"
-
-commander@^7.1.0:
+commander@^7.1.0, commander@^7.2.0:
   version "7.2.0"
   resolved "https://registry.npmjs.org/commander/-/commander-7.2.0.tgz"
 
@@ -5626,12 +5622,12 @@ gatsby-plugin-utils@^1.14.0:
     "@babel/runtime" "^7.15.4"
     joi "^17.4.2"
 
-gatsby-plugin-webpack-bundle-analyser-v2@^1.1.25:
-  version "1.1.25"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-webpack-bundle-analyser-v2/-/gatsby-plugin-webpack-bundle-analyser-v2-1.1.25.tgz#d20645d522d44d773de664bac5ed93264f986fdd"
+gatsby-plugin-webpack-bundle-analyser-v2@^1.1.26:
+  version "1.1.26"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-webpack-bundle-analyser-v2/-/gatsby-plugin-webpack-bundle-analyser-v2-1.1.26.tgz#aeec3593821615f21e30239b9d4598cda301ccd0"
   dependencies:
-    "@babel/runtime" "^7.15.3"
-    webpack-bundle-analyzer "^4.4.2"
+    "@babel/runtime" "^7.16.3"
+    webpack-bundle-analyzer "^4.5.0"
 
 gatsby-react-router-scroll@^4.14.0:
   version "4.14.0"
@@ -11594,14 +11590,14 @@ webpack-assets-manifest@^5.0.6:
     schema-utils "^3.0"
     tapable "^2.0"
 
-webpack-bundle-analyzer@^4.4.2:
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.4.2.tgz#39898cf6200178240910d629705f0f3493f7d666"
+webpack-bundle-analyzer@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.5.0.tgz#1b0eea2947e73528754a6f9af3e91b2b6e0f79d5"
   dependencies:
     acorn "^8.0.4"
     acorn-walk "^8.0.0"
     chalk "^4.1.0"
-    commander "^6.2.0"
+    commander "^7.2.0"
     gzip-size "^6.0.0"
     lodash "^4.17.20"
     opener "^1.5.2"
