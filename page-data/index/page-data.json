@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-homepage-query-tsx",
+    "path": "/",
+    "result": {"data":{"allPost":{"nodes":[{"slug":"/blog/2020/06/async-code-the-changing-abstractions","title":"Async code: the changing abstractions","date":"2020-06-28","excerpt":"I've been mulling over how  Moore's law  has\naparently slowed on the x86 architecture and how the rise of strong language support for…","timeToRead":1,"description":"My understanding of the changing abstractions for asynchronous code","tags":[{"name":"async","slug":"async"},{"name":"code","slug":"code"}]}]}},"pageContext":{"formatString":"YYYY-MM-DD"}},
+    "staticQueryHashes": ["2744905544","3090400250","318001574"]}
